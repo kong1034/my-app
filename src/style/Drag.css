@@ -1,0 +1,17 @@
+.itemWrap {
+    width:600px;
+    height:400px;
+    border:1px solid black;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    margin:50px auto;
+    list-style: none;
+    padding: 0;
+}
+
+.item {
+    width:100px;
+    height:90%;
+    border:1px solid red;
+    cursor:pointer;
+}
