@@ -1,9 +1,11 @@
-import './assets/style/App.css';
+import './style/App.css';
 import { Drag } from './components/Drag';
 
 function App() {
   return (
-      <Drag></Drag>
+    <div className="App">
+      <Drag/>
+    </div>
   );
 }
 
