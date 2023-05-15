@@ -99,7 +99,6 @@ export const Drag = () => {
                     </li>       
                 ))
             }
-            <img src="assets/img/poo.jpeg"/>   
         </ul>
     )
 }
